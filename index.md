@@ -1,26 +1,45 @@
 ---
 layout: default
+published: true
 ---
-
+{% comment %} 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
+[Link to another page](another-page). 
+
+
+[Download Fake-NSG](https://github.com/kngo20/dl_count_test/releases/download/0.1b/fake_nsg_directory.zip)
 
 There should be whitespace between paragraphs.
+{% endcomment %}
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Lorem ipsum dolor sit amet, quem iuvaret sed ea. Per dicta malorum te, ne sed etiam nostro consectetuer. Vivendum perpetua et mei. Ex per sanctus eligendi, facilis copiosae ad vix. Iriure temporibus eos ut, eu ipsum feugiat percipit camber.
 
-# Header 1
+# [](#header-1)The Fake NoC System Generator (Fake-NSG)
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+This is an awesome fakery. You must download it.
 
-## Header 2
+### [](#header-2)Download NSG
+- Fake-NSG Release:
+  - [0.1b (Latest)](https://github.com/kngo20/dl_count_test/releases/download/0.1b/fake_nsg_directory.zip)
+  - [0.01b](https://github.com/kngo20/dl_count_test/releases/download/0.1b/fake_nsg_directory.zip)
+  - [0.000000001b](https://github.com/kngo20/dl_count_test/releases/download/0.1b/fake_nsg_directory.zip)
+  	- Sooo beta it will cause your comptuter to catch fire
+  - [0.1a](https://github.com/kngo20/dl_count_test/releases/download/0.1b/fake_nsg_directory.zip)
+    - alpha release... Does not even run, might not even download...
+  - other stuff
+
+
+# [](#header-3)Header 3
+
+Kalle's test [Analytics](info2)
+
 
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.
 
-### Header 3
+
 
 ```js
 // Javascript code with syntax highlighting.
@@ -37,19 +56,19 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
-#### Header 4
+#### [](#header-4)Header 4
 
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 
-##### Header 5
+##### [](#header-5)Header 5
 
 1.  This is an ordered list following a header.
 2.  This is an ordered list following a header.
 3.  This is an ordered list following a header.
 
-###### Header 6
+###### [](#header-6)Header 6
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
@@ -94,11 +113,11 @@ end
 
 ### Small image
 
-![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
+![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
 
 ### Large image
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+![](https://guides.github.com/activities/hello-world/branching.png)
 
 
 ### Definition lists can be used with HTML syntax.
