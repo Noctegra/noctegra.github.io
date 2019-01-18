@@ -1,4 +1,6 @@
-_site
-.sass-cache
-Gemfile.lock
-*.gem
+/_site
+/Gemfile.lock
+/dist/bootstrap
+/dist/jquery
+/.idea
+/*.iml

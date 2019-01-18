@@ -1,5 +1,83 @@
-title: NoC System Generator
-description: Kalle says hello2
-show_downloads: true
-google_analytics: UA-121211431-1
-theme: jekyll-theme-architect
+# username/repository
+id: Noctegra/noctegra.github.io
+# name of the software
+name: The NoC System Generator
+# current version of the software
+version: 0.1.b
+# licence of the software
+# license: MIT License
+# licenseUrl: http://opensource.org/licenses/MIT
+# extension of the favicon, blank to disable
+favicon: png
+
+# download button
+# if download.popup is true, the download button will open a popup with several download options
+# otherwise it will simply open download.url and other options are ignored
+# if download.popup is true, any option is optional
+# download.cdn.img is optional
+download:
+  popup: false
+  url: https://github.com/mistic100/jekyll-bootstrap-doc/archive/gh-pages.zip
+  bower: jekyll-bootstrap-doc
+  npm: jekyll-bootstrap-doc
+  cdn:
+    url: https://cdnjs.com/libraries/jekyll-bootstrap-doc
+    img: https://alemangui.github.io/pizzicato/img/cdnjs.svg
+    name: cdnjs
+
+# set this to true to replace the generated header navbar by _includes/navbar.html
+customNavBar: false
+
+# list of additional links on the right of the top menu
+headerLinks:
+  - title: GitHub
+    url: https://github.com/Noctegra/NSG
+  - title: Noctegra
+    url: https://github.com/Noctegra
+
+# list if additional links on the footer
+footerLinks:
+  - title: GitHub
+    url: https://github.com/mistic100/jekyll-bootstrap-doc
+  - title: Issues
+    url: https://github.com/mistic100/jekyll-bootstrap-doc/issues?state=open
+
+# header
+header:
+  color1: "#0033cc"
+  #"#0039e6"
+  #"#080331"
+  color2: "#668cff"
+  #"#673051"
+  trianglify: true
+
+# google analytics
+analytics: UA-121211431-1
+  # account:
+  # domain:
+
+# github buttons
+githubButton:
+  user: Noctegra
+  repo: NSG
+
+# twitter buttons
+twitter:
+  enabled: false
+  via:
+  hash:
+  account:
+
+# facebook buttons
+facebook:
+  enabled: false
+  profileUrl:
+
+
+exclude: ['README.md', 'LICENSE', 'bower.json', 'Gemfile.lock', 'Gemfile']
+
+gems:
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
