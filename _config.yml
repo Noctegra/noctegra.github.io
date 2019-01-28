@@ -3,11 +3,7 @@ id: Noctegra/noctegra.github.io
 # name of the software
 name: The NoC System Generator
 # current version of the software
-version: 0.1.b
-# licence of the software
-# license: MIT License
-# licenseUrl: http://opensource.org/licenses/MIT
-# extension of the favicon, blank to disable
+version: 2018
 favicon: png
 
 # download button
@@ -17,13 +13,13 @@ favicon: png
 # download.cdn.img is optional
 download:
   popup: false
-  url: https://github.com/mistic100/jekyll-bootstrap-doc/archive/gh-pages.zip
-  bower: jekyll-bootstrap-doc
-  npm: jekyll-bootstrap-doc
-  cdn:
-    url: https://cdnjs.com/libraries/jekyll-bootstrap-doc
-    img: https://alemangui.github.io/pizzicato/img/cdnjs.svg
-    name: cdnjs
+  url: https://github.com/Noctegra/NSG/releases/tag/v2018
+  bower: NSG_latest
+  npm: NSG_latest
+  # cdn:
+  #   url: https://cdnjs.com/libraries/jekyll-bootstrap-doc
+  #   img: https://alemangui.github.io/pizzicato/img/cdnjs.svg
+  #   name: cdnjs
 
 # set this to true to replace the generated header navbar by _includes/navbar.html
 customNavBar: false
@@ -38,10 +34,9 @@ headerLinks:
 # list if additional links on the footer
 footerLinks:
   - title: GitHub
-    url: https://github.com/mistic100/jekyll-bootstrap-doc
-  - title: Issues
-    url: https://github.com/mistic100/jekyll-bootstrap-doc/issues?state=open
-
+    url: https://github.com/Noctegra/NSG
+  - title: Noctegra
+    url: https://github.com/Noctegra
 # header
 header:
   color1: "#0033cc"
